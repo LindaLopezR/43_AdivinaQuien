@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Adivina Quién</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/pure-min.css">
+</head>
+<body>
+	<header class="text-center">
+		<div class="splash-container">
+			<h1>Smash Faces</h1>
+			<hr>
+			<p class="subtitle">Bienvenidas al juego de Smash Faces, tú misión es poder identificada a todas tus compañeras de claase ingresando para ellos su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente</p>
+		</div>
+	</header>
+	<section class="descript">
+		<div class="pure-form pure-form-aligned">
+			<div class="box-width-6">
+				<div class="pure-g">
+		            <div class="pure-u-1-2">
+						<label for="">Elige tu sede</label>
+						<select id="sede">
+				            <option>Arequipa</option>
+				            <option>Lima</option>
+				            <option>México</option>
+				            <option>Santiago de Chile</option>
+				        </select>
+				        <a class="pure-button button-resp" onclick="seleccion()">Go!</a>
+				    </div>
+				    <div class="pure-u-1-2">
+				    	<label for="">Puntos:</label>
+				    	<input type="text" readonly id="control">
+				    </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section >
+		<div class="box-width-6 game">
+			<div class="pure-g">
+	            <div class="pure-u-1-2">
+					<div id="photo"></div>
+			    </div>
+			    <div class="pure-u-1-2">
+			    	<div class="pure-form pure-form-stacked">
+						<label for="">Ingresa su nombre</label>
+						<input id="respuesta" type="nombre" class="pure-u-23-24 pure-input-rounded" placeholder="Nombre">
+						<a class="pure-button button-resp" id="comprobar">Comprobar</a>
+					</div>
+					<div id="resultado"></div>
+			    </div>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+	background-image: url(../img/woman.jpg);
+	background-position: top;
+	background-size: cover;
+}
+.text-center {
+	text-align: center;
+}
+.l-box {
+    padding: .3125rem;
+}
+.subtitle {
+	padding: 0 10%;
+
+}
+.descript {
+	margin-top: 3%;
+}
+.game {
+	border: 2px solid black;
+	border-radius: 20px;
+	margin-top: 3rem !important;
+	height: 20rem;
+	padding: 2%;
+}
+.box-width-6 {
+	max-width: 60rem;
+	margin: 0 auto;
+}
+.button-resp {
+    background-color: rgb(223, 117, 20) !important;
+}
+input+.button-resp {
+	margin: 2% 0;
+}
+.photo {
+	width: 50%;
+	height: 50%;
+}
+.correcto {
+	font-size: 3rem;
+	color: white;
+}
